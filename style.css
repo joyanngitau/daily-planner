@@ -1,0 +1,101 @@
+.main {
+    border: 2px solid #000;
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.top {
+    border-bottom: 2px solid #000;
+    padding: 5px 10px 0px 5px;
+}
+
+.schedule {
+    padding: 5px;
+    width: 50%;
+}
+
+input {
+    border: 0;
+    padding: 5px;
+}
+
+.item {
+    border-bottom: 1px solid black;
+}
+
+.grid1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 5px;
+}
+
+.months {
+    padding-top: 10px;
+}
+
+.days {
+    letter-spacing: 2px;
+    width: 25%;
+}
+
+.mood {
+    width: 60%;
+    text-align: left;
+}
+
+.date {
+    width: 15%;
+}
+
+.right {
+    width: 50%;
+}
+
+.todo {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.shopping {
+    border: 1px solid black;
+}
+
+.notes {
+    border: 1px solid black;
+}
+
+.nutrition {
+    border: 1px solid black;
+}
+
+.containers {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.food {
+    border-right: 1px solid black;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
